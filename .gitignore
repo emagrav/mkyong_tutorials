@@ -1,47 +1,22 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
-*/dist
+# logs
 *.log
-*/target
-target/*
-/target/
-*/tmp
-build/
 
-# dependencies
-node_modules/
-*/bower_components
+# system Files
+**/.DS_Store
+Thumbs.db
+
+# compiled output
+**/dist
+**/target
+**/tmp
+**/build
 
 # IDEs and editors
-/.idea
-/.vscode
-.project
-.classpath
-*.launch
-.settings/
-.tern-project
-.metadata/
-
-# AppScan
-*/*_staging
-*.epf*
-*.gpf
-*_frameworksCLI_*
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
-
-#System Files
-.DS_Store
-Thumbs.db
+**/.vscode
+**/.project
+**/.settings
+**/.tern-project
+**/.metadata
+**/.classpath
