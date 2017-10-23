@@ -18,3 +18,22 @@ Uso interessante del plugin Maven di Eclipse
 			</configuration>
 </plugin>
 ```
+E del plugin Tomcat di Eclipse:
+
+pom.xml
+```xml
+<!-- For Maven Tomcat Plugin -->
+<plugin>
+	<groupId>org.apache.tomcat.maven</groupId>
+	<artifactId>tomcat7-maven-plugin</artifactId>
+	<version>2.2</version>
+	<configuration>
+		<path>/CounterWebApp</path>
+	</configuration>
+</plugin>
+```
+Type this command :
+
+mvn tomcat:run
+
+It will start Tomcat and deploy your project default to port 8080.
