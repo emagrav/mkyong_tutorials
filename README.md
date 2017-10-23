@@ -2,6 +2,7 @@
 Thanks to https://www.mkyong.com/ 
 
 Uso interessante del plugin Maven di Eclipse
+```xml
 <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-eclipse-plugin</artifactId>
@@ -14,3 +15,4 @@ Uso interessante del plugin Maven di Eclipse
 				<wtpversion>2.0</wtpversion>
 			</configuration>
 </plugin>
+```
